@@ -1,0 +1,70 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-bar a {
+  display: block;
+  padding: 1em 2em;
+  text-decoration: none;
+  color: white;  
+  text-shadow: 1px 1px gray;
+}
+
+.nav-bar {
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(50, 50, 50, 255), rgba(255, 255, 255, 255));
+  border: 2px solid black;
+  
+}
+
+#logo {
+  background: rgb(100, 100, 100);
+  text-align: center;
+  padding: 11px; 
+  color: white; 
+  text-shadow: 2px 1px black;
+  font-size: 25px;
+
+}
+
+#window {
+
+  background: url("window.jpg");
+  padding: 150px 0px;
+  padding: 30px 30px 300px 20px;
+  margin: 10px 10px;
+  background-size: 310px 340px;	
+  max-width: 310px;
+  max-height: 340px;
+  position: absolute;
+
+}
+
+#window p {
+
+  margin: 20px 0px;
+  user-select: text;
+
+}
+
+body {
+  background: url("windowsxp.jpg");
+  background-size: cover;
+}
+
+
